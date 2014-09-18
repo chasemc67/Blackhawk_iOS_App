@@ -1,0 +1,150 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* Blackhawk */ = {
+		activeExec = 0;
+		executables = (
+			33E5AC5913B548B000906597 /* Blackhawk */,
+		);
+	};
+	2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 286}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 393}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 33E5AC5913B548B000906597 /* Blackhawk */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Blackhawk */;
+		codeSenseManager = 33E5AC6A13B548D000906597 /* Code sense */;
+		executables = (
+			33E5AC5913B548B000906597 /* Blackhawk */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 333257892;
+			PBXWorkspaceStateSaveDate = 333257892;
+		};
+		perUserProjectItems = {
+			33E2EFF313DD1CE900D1591D /* PBXTextBookmark */ = 33E2EFF313DD1CE900D1591D /* PBXTextBookmark */;
+			33E2EFF413DD1CE900D1591D /* PBXTextBookmark */ = 33E2EFF413DD1CE900D1591D /* PBXTextBookmark */;
+			33E2EFF513DD1CE900D1591D /* PBXBookmark */ = 33E2EFF513DD1CE900D1591D /* PBXBookmark */;
+			33E2EFF613DD1CE900D1591D /* PBXTextBookmark */ = 33E2EFF613DD1CE900D1591D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 33E5AC6913B548D000906597 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 1183}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1254, 504}";
+		};
+	};
+	33E0F0BE13B55CA400F5DE6B /* CalendarViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 1183}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{146, 407}";
+		};
+	};
+	33E2EFF313DD1CE900D1591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E325111B887F00E27156 /* AppDelegate_iPhone.h */;
+		name = "AppDelegate_iPhone.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 393;
+		vrLoc = 0;
+	};
+	33E2EFF413DD1CE900D1591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 33E0F0BE13B55CA400F5DE6B /* CalendarViewController.m */;
+		name = "CalendarViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 407;
+		vrLoc = 146;
+	};
+	33E2EFF513DD1CE900D1591D /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */;
+	};
+	33E2EFF613DD1CE900D1591D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */;
+		name = "HandicapViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 1254;
+	};
+	33E5AC5913B548B000906597 /* Blackhawk */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Blackhawk;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	33E5AC6913B548D000906597 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	33E5AC6A13B548D000906597 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+}

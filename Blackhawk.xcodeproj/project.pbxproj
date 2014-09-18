@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		33E0F09313B54ABB00F5DE6B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F09213B54ABB00F5DE6B /* Default.png */; };
+		33E0F09C13B54BAB00F5DE6B /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F09B13B54BAB00F5DE6B /* IntroViewController.m */; };
+		33E0F0A213B54C8B00F5DE6B /* IntroView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0A113B54C8B00F5DE6B /* IntroView_iPhone.xib */; };
+		33E0F0A413B54CAA00F5DE6B /* IntroView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0A313B54CAA00F5DE6B /* IntroView_iPad.xib */; };
+		33E0F0AF13B5570F00F5DE6B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0AE13B5570F00F5DE6B /* HomeViewController.m */; };
+		33E0F0B113B5576500F5DE6B /* HomeView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0B013B5576400F5DE6B /* HomeView_iPhone.xib */; };
+		33E0F0B313B5578100F5DE6B /* HomeView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0B213B5578100F5DE6B /* HomeView_iPad.xib */; };
+		33E0F0B613B55C4B00F5DE6B /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0B513B55C4B00F5DE6B /* ContactViewController.m */; };
+		33E0F0B913B55C6B00F5DE6B /* TeeTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0B813B55C6B00F5DE6B /* TeeTimeViewController.m */; };
+		33E0F0BC13B55C8E00F5DE6B /* HandicapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */; };
+		33E0F0BF13B55CA400F5DE6B /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0BE13B55CA400F5DE6B /* CalendarViewController.m */; };
+		33E0F0C213B55CBD00F5DE6B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0C113B55CBD00F5DE6B /* SettingsViewController.m */; };
+		33E0F0C413B55CFD00F5DE6B /* ContactView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0C313B55CFC00F5DE6B /* ContactView_iPad.xib */; };
+		33E0F0C613B55D1400F5DE6B /* ContactView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0C513B55D1400F5DE6B /* ContactView_iPhone.xib */; };
+		33E0F0CC13B5611A00F5DE6B /* DiningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33E0F0CB13B5611900F5DE6B /* DiningViewController.m */; };
+		33E0F0CE13B5622D00F5DE6B /* TeeTimeView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0CD13B5622D00F5DE6B /* TeeTimeView_iPhone.xib */; };
+		33E0F0D013B5623D00F5DE6B /* HandicapView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0CF13B5623D00F5DE6B /* HandicapView_iPhone.xib */; };
+		33E0F0D213B5624D00F5DE6B /* CalendarView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0D113B5624C00F5DE6B /* CalendarView_iPhone.xib */; };
+		33E0F0D413B5625800F5DE6B /* DiningView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0D313B5625800F5DE6B /* DiningView_iPhone.xib */; };
+		33E0F0D613B5626400F5DE6B /* SettingsView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0D513B5626400F5DE6B /* SettingsView_iPhone.xib */; };
+		33E0F0D813B5628000F5DE6B /* TeeTimesView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0D713B5627F00F5DE6B /* TeeTimesView_iPad.xib */; };
+		33E0F0DA13B5628E00F5DE6B /* HandicapView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0D913B5628E00F5DE6B /* HandicapView_iPad.xib */; };
+		33E0F0DC13B5629A00F5DE6B /* CalendarView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0DB13B5629A00F5DE6B /* CalendarView_iPad.xib */; };
+		33E0F0DE13B562AD00F5DE6B /* DiningView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0DD13B562AD00F5DE6B /* DiningView_iPad.xib */; };
+		33E0F0E013B562B800F5DE6B /* SettingsView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33E0F0DF13B562B700F5DE6B /* SettingsView_iPad.xib */; };
+		33EE849E13B81111002B49D7 /* Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE849D13B81111002B49D7 /* Calendar.png */; };
+		33EE84A413B8111F002B49D7 /* Contact 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE849F13B8111F002B49D7 /* Contact 2.png */; };
+		33EE84A613B8111F002B49D7 /* Handicap.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84A113B8111F002B49D7 /* Handicap.png */; };
+		33EE84A713B8111F002B49D7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84A213B8111F002B49D7 /* Settings.png */; };
+		33EE84A813B8111F002B49D7 /* Tee Times.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84A313B8111F002B49D7 /* Tee Times.png */; };
+		33EE84AA13B8148F002B49D7 /* blackhawk bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84A913B8148F002B49D7 /* blackhawk bird.png */; };
+		33EE84BC13B8370D002B49D7 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84BB13B8370D002B49D7 /* 114x114.png */; };
+		33EE84BE13B83753002B49D7 /* application - best.png in Resources */ = {isa = PBXBuildFile; fileRef = 33EE84BD13B83753002B49D7 /* application - best.png */; };
+		C8FDF796140232ED005ED414 /* Dining 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C8FDF795140232ED005ED414 /* Dining 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Blackhawk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackhawk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Blackhawk_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blackhawk_Prefix.pch; sourceTree = "<group>"; };
+		33E0F09213B54ABB00F5DE6B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		33E0F09A13B54BAB00F5DE6B /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroViewController.h; sourceTree = "<group>"; };
+		33E0F09B13B54BAB00F5DE6B /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroViewController.m; sourceTree = "<group>"; };
+		33E0F0A113B54C8B00F5DE6B /* IntroView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0A313B54CAA00F5DE6B /* IntroView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0AD13B5570F00F5DE6B /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		33E0F0AE13B5570F00F5DE6B /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		33E0F0B013B5576400F5DE6B /* HomeView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0B213B5578100F5DE6B /* HomeView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0B413B55C4B00F5DE6B /* ContactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactViewController.h; sourceTree = "<group>"; };
+		33E0F0B513B55C4B00F5DE6B /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
+		33E0F0B713B55C6B00F5DE6B /* TeeTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeeTimeViewController.h; sourceTree = "<group>"; };
+		33E0F0B813B55C6B00F5DE6B /* TeeTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeeTimeViewController.m; sourceTree = "<group>"; };
+		33E0F0BA13B55C8E00F5DE6B /* HandicapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandicapViewController.h; sourceTree = "<group>"; };
+		33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandicapViewController.m; sourceTree = "<group>"; };
+		33E0F0BD13B55CA400F5DE6B /* CalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		33E0F0BE13B55CA400F5DE6B /* CalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
+		33E0F0C013B55CBD00F5DE6B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		33E0F0C113B55CBD00F5DE6B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		33E0F0C313B55CFC00F5DE6B /* ContactView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0C513B55D1400F5DE6B /* ContactView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0CA13B5611900F5DE6B /* DiningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiningViewController.h; sourceTree = "<group>"; };
+		33E0F0CB13B5611900F5DE6B /* DiningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiningViewController.m; sourceTree = "<group>"; };
+		33E0F0CD13B5622D00F5DE6B /* TeeTimeView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeeTimeView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0CF13B5623D00F5DE6B /* HandicapView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandicapView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0D113B5624C00F5DE6B /* CalendarView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0D313B5625800F5DE6B /* DiningView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiningView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0D513B5626400F5DE6B /* SettingsView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView_iPhone.xib; sourceTree = "<group>"; };
+		33E0F0D713B5627F00F5DE6B /* TeeTimesView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeeTimesView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0D913B5628E00F5DE6B /* HandicapView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HandicapView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0DB13B5629A00F5DE6B /* CalendarView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalendarView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0DD13B562AD00F5DE6B /* DiningView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiningView_iPad.xib; sourceTree = "<group>"; };
+		33E0F0DF13B562B700F5DE6B /* SettingsView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView_iPad.xib; sourceTree = "<group>"; };
+		33EE849D13B81111002B49D7 /* Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Calendar.png; sourceTree = "<group>"; };
+		33EE849F13B8111F002B49D7 /* Contact 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Contact 2.png"; sourceTree = "<group>"; };
+		33EE84A113B8111F002B49D7 /* Handicap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Handicap.png; sourceTree = "<group>"; };
+		33EE84A213B8111F002B49D7 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		33EE84A313B8111F002B49D7 /* Tee Times.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Tee Times.png"; sourceTree = "<group>"; };
+		33EE84A913B8148F002B49D7 /* blackhawk bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackhawk bird.png"; sourceTree = "<group>"; };
+		33EE84BB13B8370D002B49D7 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		33EE84BD13B83753002B49D7 /* application - best.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application - best.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Blackhawk-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Blackhawk-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C8FDF795140232ED005ED414 /* Dining 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Dining 3.png"; path = "../Images/Current Images/Dining 3.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Blackhawk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F09F13B54BE900F5DE6B /* .XIB */,
+				33E0F09913B54B1600F5DE6B /* Resouces */,
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F0A013B54BEB00F5DE6B /* .XIB */,
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				33FD1C1513B57DC8003D8090 /* Resources */,
+				33E0F09E13B54BC200F5DE6B /* .M */,
+				33E0F09D13B54BBF00F5DE6B /* .H */,
+				8D1107310486CEB800E47090 /* Blackhawk-Info.plist */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Blackhawk_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33E0F09913B54B1600F5DE6B /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				C8FDF795140232ED005ED414 /* Dining 3.png */,
+				33EE849F13B8111F002B49D7 /* Contact 2.png */,
+				33EE84A113B8111F002B49D7 /* Handicap.png */,
+				33EE84A213B8111F002B49D7 /* Settings.png */,
+				33EE84A313B8111F002B49D7 /* Tee Times.png */,
+				33EE849D13B81111002B49D7 /* Calendar.png */,
+			);
+			name = Resouces;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		33E0F09D13B54BBF00F5DE6B /* .H */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F0C013B55CBD00F5DE6B /* SettingsViewController.h */,
+				33E0F0CA13B5611900F5DE6B /* DiningViewController.h */,
+				33E0F0BD13B55CA400F5DE6B /* CalendarViewController.h */,
+				33E0F0BA13B55C8E00F5DE6B /* HandicapViewController.h */,
+				33E0F0B713B55C6B00F5DE6B /* TeeTimeViewController.h */,
+				33E0F0B413B55C4B00F5DE6B /* ContactViewController.h */,
+				33E0F0AD13B5570F00F5DE6B /* HomeViewController.h */,
+				33E0F09A13B54BAB00F5DE6B /* IntroViewController.h */,
+			);
+			name = .H;
+			sourceTree = "<group>";
+		};
+		33E0F09E13B54BC200F5DE6B /* .M */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F0C113B55CBD00F5DE6B /* SettingsViewController.m */,
+				33E0F0CB13B5611900F5DE6B /* DiningViewController.m */,
+				33E0F0BE13B55CA400F5DE6B /* CalendarViewController.m */,
+				33E0F0BB13B55C8E00F5DE6B /* HandicapViewController.m */,
+				33E0F0B813B55C6B00F5DE6B /* TeeTimeViewController.m */,
+				33E0F0B513B55C4B00F5DE6B /* ContactViewController.m */,
+				33E0F0AE13B5570F00F5DE6B /* HomeViewController.m */,
+				33E0F09B13B54BAB00F5DE6B /* IntroViewController.m */,
+			);
+			name = .M;
+			sourceTree = "<group>";
+		};
+		33E0F09F13B54BE900F5DE6B /* .XIB */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F0D513B5626400F5DE6B /* SettingsView_iPhone.xib */,
+				33E0F0D313B5625800F5DE6B /* DiningView_iPhone.xib */,
+				33E0F0D113B5624C00F5DE6B /* CalendarView_iPhone.xib */,
+				33E0F0CF13B5623D00F5DE6B /* HandicapView_iPhone.xib */,
+				33E0F0CD13B5622D00F5DE6B /* TeeTimeView_iPhone.xib */,
+				33E0F0C513B55D1400F5DE6B /* ContactView_iPhone.xib */,
+				33E0F0B013B5576400F5DE6B /* HomeView_iPhone.xib */,
+				33E0F0A113B54C8B00F5DE6B /* IntroView_iPhone.xib */,
+			);
+			name = .XIB;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		33E0F0A013B54BEB00F5DE6B /* .XIB */ = {
+			isa = PBXGroup;
+			children = (
+				33E0F0DF13B562B700F5DE6B /* SettingsView_iPad.xib */,
+				33E0F0DD13B562AD00F5DE6B /* DiningView_iPad.xib */,
+				33E0F0DB13B5629A00F5DE6B /* CalendarView_iPad.xib */,
+				33E0F0D913B5628E00F5DE6B /* HandicapView_iPad.xib */,
+				33E0F0D713B5627F00F5DE6B /* TeeTimesView_iPad.xib */,
+				33E0F0C313B55CFC00F5DE6B /* ContactView_iPad.xib */,
+				33E0F0B213B5578100F5DE6B /* HomeView_iPad.xib */,
+				33E0F0A313B54CAA00F5DE6B /* IntroView_iPad.xib */,
+			);
+			name = .XIB;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		33FD1C1513B57DC8003D8090 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33EE84BB13B8370D002B49D7 /* 114x114.png */,
+				33EE84BD13B83753002B49D7 /* application - best.png */,
+				33EE84A913B8148F002B49D7 /* blackhawk bird.png */,
+				33E0F09213B54ABB00F5DE6B /* Default.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Blackhawk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Blackhawk" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blackhawk;
+			productName = Blackhawk;
+			productReference = 1D6058910D05DD3D006BFB54 /* Blackhawk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Blackhawk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Blackhawk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				33E0F09313B54ABB00F5DE6B /* Default.png in Resources */,
+				33E0F0A213B54C8B00F5DE6B /* IntroView_iPhone.xib in Resources */,
+				33E0F0A413B54CAA00F5DE6B /* IntroView_iPad.xib in Resources */,
+				33E0F0B113B5576500F5DE6B /* HomeView_iPhone.xib in Resources */,
+				33E0F0B313B5578100F5DE6B /* HomeView_iPad.xib in Resources */,
+				33E0F0C413B55CFD00F5DE6B /* ContactView_iPad.xib in Resources */,
+				33E0F0C613B55D1400F5DE6B /* ContactView_iPhone.xib in Resources */,
+				33E0F0CE13B5622D00F5DE6B /* TeeTimeView_iPhone.xib in Resources */,
+				33E0F0D013B5623D00F5DE6B /* HandicapView_iPhone.xib in Resources */,
+				33E0F0D213B5624D00F5DE6B /* CalendarView_iPhone.xib in Resources */,
+				33E0F0D413B5625800F5DE6B /* DiningView_iPhone.xib in Resources */,
+				33E0F0D613B5626400F5DE6B /* SettingsView_iPhone.xib in Resources */,
+				33E0F0D813B5628000F5DE6B /* TeeTimesView_iPad.xib in Resources */,
+				33E0F0DA13B5628E00F5DE6B /* HandicapView_iPad.xib in Resources */,
+				33E0F0DC13B5629A00F5DE6B /* CalendarView_iPad.xib in Resources */,
+				33E0F0DE13B562AD00F5DE6B /* DiningView_iPad.xib in Resources */,
+				33E0F0E013B562B800F5DE6B /* SettingsView_iPad.xib in Resources */,
+				33EE849E13B81111002B49D7 /* Calendar.png in Resources */,
+				33EE84A413B8111F002B49D7 /* Contact 2.png in Resources */,
+				33EE84A613B8111F002B49D7 /* Handicap.png in Resources */,
+				33EE84A713B8111F002B49D7 /* Settings.png in Resources */,
+				33EE84A813B8111F002B49D7 /* Tee Times.png in Resources */,
+				33EE84AA13B8148F002B49D7 /* blackhawk bird.png in Resources */,
+				33EE84BC13B8370D002B49D7 /* 114x114.png in Resources */,
+				33EE84BE13B83753002B49D7 /* application - best.png in Resources */,
+				C8FDF796140232ED005ED414 /* Dining 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				33E0F09C13B54BAB00F5DE6B /* IntroViewController.m in Sources */,
+				33E0F0AF13B5570F00F5DE6B /* HomeViewController.m in Sources */,
+				33E0F0B613B55C4B00F5DE6B /* ContactViewController.m in Sources */,
+				33E0F0B913B55C6B00F5DE6B /* TeeTimeViewController.m in Sources */,
+				33E0F0BC13B55C8E00F5DE6B /* HandicapViewController.m in Sources */,
+				33E0F0BF13B55CA400F5DE6B /* CalendarViewController.m in Sources */,
+				33E0F0C213B55CBD00F5DE6B /* SettingsViewController.m in Sources */,
+				33E0F0CC13B5611A00F5DE6B /* DiningViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Blackhawk_Prefix.pch;
+				INFOPLIST_FILE = "Blackhawk-Info.plist";
+				PRODUCT_NAME = Blackhawk;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Blackhawk_Prefix.pch;
+				INFOPLIST_FILE = "Blackhawk-Info.plist";
+				PRODUCT_NAME = Blackhawk;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Blackhawk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Blackhawk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
